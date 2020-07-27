@@ -1,0 +1,22 @@
+package kanastudy;
+
+public class Triangle02 {
+	
+	public static void main(String[] args) {
+		
+	for (int i=0;i<6;i++) {
+		for(int a=6-i;a<6;a--) {
+			System.out.print(" ");
+			
+		}
+		
+		for(int c=0;c>1;c++) {
+			System.out.print("* ");
+		}
+		System.out.println();
+		
+	}
+
+   }
+
+}

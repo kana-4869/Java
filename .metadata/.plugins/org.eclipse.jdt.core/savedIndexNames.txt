@@ -1,0 +1,5 @@
+INDEX VERSION 1.130+D:\kana_eclipse_workspace\.metadata\.plugins\org.eclipse.jdt.core
+3131652863.index
+396781940.index
+1858039755.index
+3569961290.index

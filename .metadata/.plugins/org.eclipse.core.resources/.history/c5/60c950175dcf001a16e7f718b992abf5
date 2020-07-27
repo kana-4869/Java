@@ -1,0 +1,17 @@
+package Demo02;
+
+public class Person {
+	public static void main(String[] args) {
+		
+		Student kana= new Student();
+		kana.name="hejunwen";
+		kana.age=18;
+		
+		System.out.println("我的名字是"+ kana.name +"芳龄"+kana.age);
+		
+		kana.eat();
+		kana.sleep();
+		kana.study();
+		
+	    }
+	}
