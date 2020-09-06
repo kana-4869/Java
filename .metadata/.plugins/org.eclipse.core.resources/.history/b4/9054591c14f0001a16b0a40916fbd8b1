@@ -1,0 +1,14 @@
+package Demo06;
+
+import java.util.Arrays;
+
+public class ArrayList {
+	
+	public static void main(String[] args) {
+		ArrayLists<String> list= new ArrayLists<>();
+		System.out.println(list);
+		
+		
+	}
+
+}

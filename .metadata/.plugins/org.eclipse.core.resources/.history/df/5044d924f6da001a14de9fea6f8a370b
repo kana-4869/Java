@@ -1,0 +1,19 @@
+package Demo03;
+
+public class Demo03Person {
+	
+	public static void main(String[] args) {
+		Person detail=new Person();
+		
+		detail.name;
+		detail.getAge();
+		detail.show();
+	
+	}
+	
+
+	
+	
+	
+
+}

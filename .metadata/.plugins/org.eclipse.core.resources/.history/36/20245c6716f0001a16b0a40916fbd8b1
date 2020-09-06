@@ -1,0 +1,19 @@
+package Demo06;
+
+import java.util.ArrayList;
+
+public class ArrayList01{
+	
+	public static void main(String[] args) {
+		ArrayList<String> list = new ArrayList<>();
+		System.out.println(list);
+		
+		list.add("äºÆé¤¢¤æ¤ß");
+		list.add("‚}Ä¾ÂéÒÂ");
+		list.add("Î÷Ò°¥«¥Ê");
+		System.out.println(list);
+		
+		
+	}
+
+}

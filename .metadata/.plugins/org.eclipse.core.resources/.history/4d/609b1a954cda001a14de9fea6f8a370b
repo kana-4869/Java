@@ -1,0 +1,29 @@
+/*
+ * 成员变量和局部变量
+ * 1.定义的位置不一样【重点】
+ * 局部变量：在方法的内部
+ * 成员变量：在方法的外部，在类的里面
+ * 
+ * 2.作用范围不一样【重点】
+ * 局部变量：只有方法当中可以用，出了方法就不能用
+ * 成员变量：整个类都可以通用
+ * 
+ */
+
+
+
+package Demo03;
+
+public class Demo01VariableDiffrence {
+	
+	String name;//成员变量
+
+
+public void method() {
+	
+	int num=10;//局部变量
+	System.out.println(num);
+}
+
+}
+

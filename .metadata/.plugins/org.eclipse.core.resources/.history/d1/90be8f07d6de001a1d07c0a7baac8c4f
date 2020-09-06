@@ -1,0 +1,20 @@
+package Demo04;
+
+public class Student {
+
+	//无参数的构造方法
+	public Student() {
+		System.out.println("无参数的构造方法执行啦");
+	}
+	
+	//有参数的构造方法
+	String name;
+	int age;
+	public Student(String name,int age) {
+		this.name="kana";
+		this.age=18;
+		
+		System.out.println("有参数的构造方法执行啦");
+	}
+}
+	

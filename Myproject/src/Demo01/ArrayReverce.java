@@ -21,7 +21,6 @@ package Demo01;
  * min<max
  */
 
-import java.lang.reflect.Array;
 
 public class ArrayReverce {
 	

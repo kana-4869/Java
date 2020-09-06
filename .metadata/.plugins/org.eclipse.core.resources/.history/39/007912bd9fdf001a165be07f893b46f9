@@ -1,0 +1,12 @@
+package Demo04;
+
+public class GetAyuDetail {
+	
+	public static void main(String[] args) {
+		AyuDetail ayu=new AyuDetail();
+		ayu.setName("äºÆé¤¢¤æ¤ß");
+		ayu.setAge(18);
+		System.out.println("ĞÕÃû£º"+ayu.getName()+"ÄêÁä£º"+ayu.getAge());
+	}
+
+}

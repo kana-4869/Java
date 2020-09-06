@@ -1,0 +1,11 @@
+package Demo04;
+
+public class NewPerson {
+
+	public static void main(String[] args) {
+		Person per=new Person();
+		
+		per.name="Ð¡ºØ";
+		
+	}
+}

@@ -1,0 +1,39 @@
+package Demo02;
+
+public class PhoneParam {
+	
+	public static void main(String[] args) {
+		
+		Phone one=new Phone();
+		one.brand="ÈýÐÇ";
+		one.color="red";
+		one.price=8800.0;
+		
+		
+		method(one);
+		
+		System.out.println("==========");
+		
+		Phone two=new Phone();
+		
+		two.brand="lv";
+		two.color="white";
+		two.price=11000.0;
+		
+		method(two);
+		
+		
+
+		
+		
+	}
+	
+	public static void method(Phone param) {
+		System.out.println(param.brand);
+		System.out.println(param.color);
+		System.out.println(param.price);
+		System.out.println("fangfa");
+		
+	}
+
+}

@@ -1,0 +1,11 @@
+package Demo04;
+
+public class Person {
+
+	String name;
+	
+	public void sayHello(String name) {
+		
+		System.out.println(name+"ÄãºÃ£¬ÎÒÊÇ"+this.name);
+	}
+}

@@ -26,7 +26,7 @@ public class Arrayparam {
 			System.out.println(array[i]);
 		}
 	}
-	
+
 }
 
 

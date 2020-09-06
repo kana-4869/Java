@@ -1,5 +1,4 @@
 package Demo01;
-import org.omg.Messaging.SyncScopeHelper;
 
 public class Array {
 

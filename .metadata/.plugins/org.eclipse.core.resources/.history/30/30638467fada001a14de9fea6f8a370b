@@ -1,0 +1,25 @@
+package Demo03;
+
+public class Demo03Person {
+	
+	public static void main(String[] args) {
+		Person detail=new Person();
+		
+	
+		detail.setName();
+		detail.setAge(20);
+		detail.show();
+		
+		System.out.println("=============");
+		
+		detail.setAge(30);
+		
+	
+	}
+	
+
+	
+	
+	
+
+}
