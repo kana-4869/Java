@@ -1,0 +1,22 @@
+package Demo06;
+
+import java.util.ArrayList;
+
+/*
+ * 
+ */
+public class ArrayListMethod {
+	public static void main(String[] args) {
+		
+		ArrayList<String> list=	new ArrayList<>();
+		System.out.println(list);
+		
+		//向集合中添加元素
+		boolean success= list.add("YOSHIKI");
+		System.out.println(list);
+		System.out.println("添加的动作是否成功: "+success);
+	
+	}
+
+	
+}
