@@ -1,6 +1,0 @@
-package Demo04;
-
-public class NewStudent {
-
-	Student stu=new Student();
-}
