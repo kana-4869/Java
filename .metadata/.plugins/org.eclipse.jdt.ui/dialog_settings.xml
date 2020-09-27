@@ -136,7 +136,7 @@
 	</section>
 	<section name="DialogBounds_GetterSetterTreeSelectionDialog">
 		<item value="500" key="DIALOG_WIDTH"/>
-		<item value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-21|0|0|0|400|0|0|0|1|0|0|5|0|Microsoft YaHei UI" key="DIALOG_FONT_NAME"/>
+		<item value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-21|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI" key="DIALOG_FONT_NAME"/>
 		<item value="627" key="DIALOG_HEIGHT"/>
 		<item value="296" key="DIALOG_X_ORIGIN"/>
 		<item value="6" key="DIALOG_Y_ORIGIN"/>
