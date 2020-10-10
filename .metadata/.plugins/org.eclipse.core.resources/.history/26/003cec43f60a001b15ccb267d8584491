@@ -1,0 +1,9 @@
+package Demo07;
+
+public class String {
+	
+	public static void main(StringPool[] args) {
+		
+	}
+
+}
