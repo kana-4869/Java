@@ -1,0 +1,54 @@
+package Demo07;
+
+/*String当中常用的获取方法如下：
+ * public int Length():获取字符串含有的个数，即字符串的长度；
+ * public String concat(String str):将两个不同的字符串拼接在一起，返回新的字符串；
+ * public charAt(int index):获取字符串的索引号，索引值从0开始；
+ * public indexOf(String str):查找参数字符串当中首次出现的索引位置，如果没有，返回-1值。
+ * 
+ */
+
+/**
+ * @author kana
+ *
+ * 2020年10月17日
+ */
+public class StringGet {
+	
+	public static void main(String[] args) {
+		//获取字符串的长度
+		int Length="DFGHJKLDFGHJKDFGHJKLDFGHJK".length();
+		System.out.println("字符串的个数是："+Length);
+		
+		
+		//拼接字符串
+		
+		String str1="Hello";
+		String str2="World";
+		String str3= str1.concat(str2);
+		System.out.println(str1);
+		System.out.println(str2);
+		System.out.println(str3);
+		
+		System.out.println("===============================");
+		
+		//获取指定索引位置的单个字符
+		char ch="ayumihamasaki".charAt(2);
+		System.out.println("在2号索引位置的字符是："+ch);
+		
+		//查找字符串在本来字符串中的第一次索引位置
+		String str4="ayumihamasaki";
+		int index = str4.indexOf("hama");
+		System.out.println("第一次索引位置是："+index);
+		
+		//如果没有找到第一次的索引位置，返回值为-1
+		System.out.println("Hello".indexOf("ABC"));
+		
+		
+	}
+
+
+
+
+
+}

@@ -1,0 +1,49 @@
+package Demo07;
+
+/*String当中与转换相关的常用方法有：
+ * public char[] toCharArray():将当前字符串拆分成字符数组作为返回值；
+ * public Byte[] getBytes():获取当前字符串底层的字节数组；
+ * public replace(CharSequence oldString，CharSequence newString):
+ * 将所有出现的老字符串替换成新字符串，返回替换之后的新字符串。
+ * 
+ */
+
+/**
+ * @author kana
+ *
+ * 2020年10月17日
+ */
+public class StringConvert {
+	
+	public static void main(String[] args) {
+		
+		//将当前字符拆分成字符数组
+		
+		char[] chars="sequence".toCharArray();
+		System.out.println(chars[3]);
+		System.out.println("字符的长度是："+chars.length);
+		
+		//转换成字节数组
+		
+		byte[] bytes = "abc".getBytes();
+		
+		for(int i=0; i<bytes.length; i++) {
+			System.out.println(bytes[i]);
+		}
+		
+		//老字符串替换成新字符串
+		
+		String str1="あんなやつ、やめちゃえば？！";
+		String str2=str1.replace("やめちゃえば", "******");
+		System.out.println(str1);
+		System.out.println(str2);
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}
