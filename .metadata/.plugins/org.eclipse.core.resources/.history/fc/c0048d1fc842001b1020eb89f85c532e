@@ -1,0 +1,9 @@
+package Demo08;
+
+public class Employee {
+	
+	public void method() {
+		System.out.println("·½·¨Ö´ÐÐ£¡");
+	}
+
+}

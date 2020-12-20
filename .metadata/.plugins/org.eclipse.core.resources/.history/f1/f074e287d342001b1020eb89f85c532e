@@ -1,0 +1,15 @@
+package Demo10;
+
+public class Zi extends Fu{
+
+	public static void methodZi() {
+		System.out.println("子类方法执行！");
+	}
+	
+
+	public void method() {
+		
+		System.out.println("子类方法重名执行！");
+	}
+	
+}

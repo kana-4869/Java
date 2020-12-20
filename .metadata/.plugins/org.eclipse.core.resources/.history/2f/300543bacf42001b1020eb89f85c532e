@@ -1,0 +1,11 @@
+package Demo10;
+
+public class ExtendsMethod {
+	
+	public static void main(String[] args) {
+		
+		Fu fu= new Fu();
+		Fu.method();
+	}
+
+}

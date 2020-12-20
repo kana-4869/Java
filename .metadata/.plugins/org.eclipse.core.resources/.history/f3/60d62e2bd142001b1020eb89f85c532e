@@ -1,0 +1,8 @@
+package Demo10;
+
+public class Fu {
+
+	public static void methodFu() {
+		System.out.println("父类方法执行！");
+	}
+}

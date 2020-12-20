@@ -1,0 +1,15 @@
+package Demo10;
+
+public class ExtendsMethod {
+	
+	public static void main(String[] args) {
+		
+		Zi zi= new Zi();
+		Zi.methodZi();
+		Zi.methodFu();
+		
+		Zi.method();
+
+	}
+
+}
